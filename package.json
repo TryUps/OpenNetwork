@@ -1,0 +1,27 @@
+{
+  "name": "opennetwork",
+  "version": "1.0.0",
+  "description": "OpenNetwork Social Network for Web",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryUps/OpenNetwork.git"
+  },
+  "keywords": [
+    "network",
+    "social",
+    "nodejs"
+  ],
+  "author": "TryUps Inc. (Arilson B.)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/TryUps/OpenNetwork/issues"
+  },
+  "homepage": "https://github.com/TryUps/OpenNetwork#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
