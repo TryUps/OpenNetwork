@@ -4,7 +4,7 @@
   "description": "OpenNetwork Social Network for Web",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,14 @@
   },
   "homepage": "https://github.com/TryUps/OpenNetwork#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "express-reload": "^1.2.0"
   }
 }
