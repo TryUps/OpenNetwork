@@ -1,4 +1,4 @@
-const express = require('express')
+import express from 'express';
 const router = express.Router()
 
 router.get('/', (req, res, next) => {
@@ -11,4 +11,4 @@ router.get('/:page/', (req, res, next) => {
     res.render('page')
 })
 
-module.exports = router
+export default router;

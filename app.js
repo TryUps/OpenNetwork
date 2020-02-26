@@ -1,12 +1,13 @@
-const express = require('express');
-const path = require('path');
-const expressLayouts = require('express-ejs-layouts');
+import express from 'express';
+import path from 'path';
+import router from './class/router.js';
 const app = express();
-const router = require('./class/router')
 const port = process.env.PORT || 5000;
+const __dirname = path.resolve(path.dirname(''));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './views'));
+app.use('/static', express.static(__dirname + '/public'));
 app.use('/', router);
 
 app.use(function(err, req, res, next) {
